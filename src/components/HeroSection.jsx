@@ -35,21 +35,24 @@ const HeroSection = () => {
           </p>
         </div>
         
-        <div className="mt-16">
+        <div className="mt-12 md:mt-16">
           <button 
             onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-            className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-transparent border border-space-blue/30 hover:border-space-blue overflow-hidden"
+            className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-transparent border border-space-blue/30 hover:border-space-blue overflow-hidden sm:px-12"
           >
-            <span className="relative z-10 uppercase tracking-[0.3em] text-xs">Explorar la Misión</span>
+            <span className="relative z-10 uppercase tracking-[0.3em] text-[10px] md:text-xs">Explorar la Misión</span>
             <div className="absolute inset-0 bg-space-blue/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </button>
         </div>
       </div>
 
+      {/* Graduation/Transition Fade Out */}
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent z-20 pointer-events-none" />
+
       {/* Decoration / Scroll Indicator */}
-      <div className="absolute bottom-12 flex flex-col items-center gap-4">
-        <span className="text-[10px] uppercase tracking-[0.5em] text-space-blue/50 rotate-90 mb-8">Scroll</span>
-        <div className="w-[1px] h-20 bg-gradient-to-b from-space-blue via-space-blue/20 to-transparent animate-pulse" />
+      <div className="absolute bottom-6 flex flex-col items-center gap-1 z-30 opacity-40">
+        <span className="text-[10px] uppercase tracking-[0.5em] text-white">Scroll</span>
+        <div className="w-[1px] h-12 bg-gradient-to-b from-space-blue via-space-blue/50 to-transparent" />
       </div>
     </section>
   );

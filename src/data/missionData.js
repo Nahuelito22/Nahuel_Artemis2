@@ -11,28 +11,28 @@ export const crew = [
     name: "Reid Wiseman",
     role: "Comandante",
     bio: "Veterano de la Estación Espacial Internacional y líder de la primera misión tripulada del programa Artemis.",
-    image: "https://placehold.co/300x400/0b0d17/00d4ff?text=Reid+Wiseman"
+    image: "/assets/crew/Reid_Wiseman.jpg"
   },
   {
     id: 2,
     name: "Victor Glover",
     role: "Piloto",
     bio: "Piloto de la misión Crew-1 de SpaceX, se convertirá en el primer hombre de color en viajar a la Luna.",
-    image: "https://placehold.co/300x400/0b0d17/00d4ff?text=Victor+Glover"
+    image: "/assets/crew/Victor-J-Glover_webp.webp"
   },
   {
     id: 3,
     name: "Christina Koch",
     role: "Especialista de Misión",
     bio: "Posee el récord del vuelo espacial más largo realizado por una mujer; será la primera mujer en viajar a la Luna.",
-    image: "https://placehold.co/300x400/0b0d17/00d4ff?text=Christina+Koch"
+    image: "/assets/crew/Christina_Koch.webp"
   },
   {
     id: 4,
     name: "Jeremy Hansen",
     role: "Especialista de Misión",
     bio: "Representante de la Agencia Espacial Canadiense (CSA) y el primer canadiense en aventurarse a las cercanías lunares.",
-    image: "https://placehold.co/300x400/0b0d17/00d4ff?text=Jeremy+Hansen"
+    image: "/assets/crew/Jeremy_Hansen.jpg"
   }
 ];
 
