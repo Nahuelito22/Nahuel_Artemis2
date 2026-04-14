@@ -1,4 +1,4 @@
-import { Rocket, Github, Twitter, Globe } from 'lucide-react';
+import { Rocket, Github, Linkedin, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -21,15 +21,33 @@ const Footer = () => {
               Explorando las fronteras del espacio profundo para la próxima generación.
             </p>
             <div className="flex items-center gap-4">
-              <button className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors">
-                <Twitter size={18} />
-              </button>
-              <button className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors">
+              <a 
+                href="https://www.linkedin.com/in/nahuel-ghilardi/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={18} />
+              </a>
+              <a 
+                href="https://github.com/Nahuelito22/Nahuel_Artemis2" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors"
+                aria-label="GitHub"
+              >
                 <Github size={18} />
-              </button>
-              <button className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors">
+              </a>
+              <a 
+                href="https://www.nahuelghilardi.com.ar/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-white/5 text-space-gray hover:text-space-blue transition-colors"
+                aria-label="Portfolio"
+              >
                 <Globe size={18} />
-              </button>
+              </a>
             </div>
           </div>
 
@@ -57,7 +75,7 @@ const Footer = () => {
         {/* Bottom Credits */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] text-space-gray/30 uppercase tracking-[0.4em]">
-            © {currentYear} Proyecto Artemis II - Fines Educativos
+            © {currentYear} Proyecto Artemis II - Desarrollado por Nahuel Ghilardi
           </p>
           <div className="flex items-center gap-6">
             <span className="text-[10px] text-space-gray/30 uppercase tracking-[0.4em]">Desarrollado con React & Tailwind CSS</span>
