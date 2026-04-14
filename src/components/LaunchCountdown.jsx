@@ -54,7 +54,7 @@ const LaunchCountdown = () => {
   );
 
   return (
-    <section className="py-12 bg-transparent relative z-10">
+    <section className="pt-24 pb-12 bg-transparent relative z-10">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex items-center justify-center gap-4 md:gap-10">
           <TimeUnit value={timeLeft.days} label="Días" />
