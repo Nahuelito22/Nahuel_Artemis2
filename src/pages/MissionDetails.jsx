@@ -1,9 +1,15 @@
 import Timeline from '../components/Timeline';
 import SpacecraftSpecs from '../components/SpacecraftSpecs';
+import MissionSimulator from '../components/MissionSimulator';
 
 const MissionDetails = () => {
   return (
     <div className="pt-32 pb-24">
+      {/* Simulation Section */}
+      <section className="mb-32">
+        <MissionSimulator />
+      </section>
+
       {/* Phases Section */}
       <section className="px-6 mb-32">
         <div className="text-center mb-16">
