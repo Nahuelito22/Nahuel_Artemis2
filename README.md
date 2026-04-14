@@ -1,8 +1,8 @@
-# Artemis II Landing Page 🚀
+# Artemis II Landing Page 
 
 Una landing page informativa, moderna y altamente visual sobre la misión **Artemis II** de la NASA, desarrollada con un enfoque en el rendimiento y la estética espacial.
 
-## 🌟 Características
+## Características
 
 - **Diseño Space Theme**: Estética oscura con acentos azul neón y efectos de glassmorphism.
 - **Cuenta Regresiva**: Contador dinámico en tiempo real para el lanzamiento (Septiembre 2025).
@@ -12,7 +12,7 @@ Una landing page informativa, moderna y altamente visual sobre la misión **Arte
 - **Especificaciones Técnicas**: Detalles visuales del SLS y la cápsula Orion.
 - **Totalmente Responsivo**: Experiencia optimizada para móviles, tablets y escritorio.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Core**: React 18 + Vite
 - **Estilos**: Tailwind CSS v3
@@ -20,7 +20,7 @@ Una landing page informativa, moderna y altamente visual sobre la misión **Arte
 - **Rutas**: React Router DOM
 - **Animaciones**: CSS Puro & Intersection Observer API
 
-## 🚀 Instalación y Desarrollo
+## Instalación y Desarrollo
 
 1. Clonar el repositorio:
    ```bash
@@ -35,13 +35,13 @@ Una landing page informativa, moderna y altamente visual sobre la misión **Arte
    npm run dev
    ```
 
-## 👨‍💻 Autor
+## Autor
 
 **Nahuel Ghilardi**
 - [LinkedIn](https://www.linkedin.com/in/nahuel-ghilardi/)
 - [Portfolio](https://www.nahuelghilardi.com.ar/)
 - [GitHub](https://github.com/Nahuelito22)
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
