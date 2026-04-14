@@ -1,6 +1,9 @@
+import useScrollReveal from '../hooks/useScrollReveal';
+
 const CrewCard = ({ name, role, bio, image }) => {
+  const revealRef = useScrollReveal();
   return (
-    <div className="group relative flex flex-col md:flex-row bg-white/[0.03] backdrop-blur-md border border-white/10 p-4 md:p-6 rounded-3xl transition-all duration-500 hover:border-space-blue/40 hover:bg-white/[0.05] hover:shadow-[0_0_40px_rgba(0,212,255,0.1)] overflow-hidden">
+    <div ref={revealRef} className="group relative flex flex-col md:flex-row bg-white/[0.03] backdrop-blur-md border border-white/10 p-4 md:p-6 rounded-3xl transition-all duration-500 hover:border-space-blue/40 hover:bg-white/[0.05] hover:shadow-[0_0_40px_rgba(0,212,255,0.1)] overflow-hidden">
       {/* Astronaut Image - Positioned with a subtle offset effect */}
       <div className="relative w-full md:w-48 lg:w-56 aspect-[3/4] shrink-0 rounded-2xl overflow-hidden mb-6 md:mb-0">
         <img 
