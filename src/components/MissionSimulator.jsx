@@ -27,6 +27,8 @@ const MissionSimulator = () => {
     startTime: Date.now()
   });
 
+  const requestRef = useRef();
+
   useEffect(() => {
     const handleResize = () => {
       const canvas = canvasRef.current;
