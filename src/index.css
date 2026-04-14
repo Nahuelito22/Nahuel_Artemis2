@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #0B0D17;
+  color: #D1D5DB;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0B0D17;
+  color: #D1D5DB;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #00D4FF11 transparent;
+}
+
+/* Custom Utility for glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Custom scrollbar for chrome/safari */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #00D4FF11;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00D4FF33;
+}
+
+/* Animations for useScrollReveal Hook */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
