@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Crew from './pages/Crew';
 import MissionDetails from './pages/MissionDetails';
@@ -18,6 +19,7 @@ function App() {
             <Route path="/spacecraft" element={<MissionDetails />} /> 
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
