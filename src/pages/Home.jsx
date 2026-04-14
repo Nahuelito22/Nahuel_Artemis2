@@ -1,10 +1,14 @@
 import HeroSection from '../components/HeroSection';
+import LaunchCountdown from '../components/LaunchCountdown';
 import { mission } from '../data/missionData';
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
+      
+      {/* Launch Countdown Section */}
+      <LaunchCountdown />
       
       {/* Intro Section */}
       <section id="about" className="py-24 px-6 max-w-5xl mx-auto text-center">
